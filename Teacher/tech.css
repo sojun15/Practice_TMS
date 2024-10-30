@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+body{
+    background-color: aqua;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header{
+    background-color: #3ce845;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+a{
+    font-size: large;
+    text-decoration: none;
+    
+}
+
+.text{
+    border: .1rem dotted;
+}
